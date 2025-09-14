@@ -1,0 +1,22 @@
+SELECT 
+    skills,
+    ROUND (AVG (salary_year_avg), 0) AS avg_salary
+FROM job_postings_fact
+INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE job_title_short = 'Data Engineer' AND  salary_year_avg is NOT NULL
+GROUP BY
+    skills
+ORDER BY 
+    avg_salary DESC
+LIMIT 25
+
+/* 
+Based on the analysis in the data_engineer_skills.md file, here are the key insights presented in three bullet points:
+
+The "Hybrid" Engineer: The highest-paying skills are often not traditional data engineering tools, but rather technologies from other fields like web development (Node.js, Vue) and blockchain (Solidity). This indicates a growing demand for data engineers who can build user-facing applications or work in emerging tech domains.
+
+Core Infrastructure Matters: In addition to new skills, a strong foundation in core infrastructure and DevOps is still highly valued. Skills like Kubernetes for container orchestration and a deep understanding of command-line tools (Ubuntu, Shell) and specific cloud services (CodeCommit) are essential for building scalable and robust data systems.
+
+Real-time and Specialized Data: The data shows a premium on expertise in real-time data streaming (Kafka) and specialized databases (MongoDB, Cassandra). This confirms the shift towards handling unstructured data and building event-driven architectures to support real-time analytics and business operations.
+*/
