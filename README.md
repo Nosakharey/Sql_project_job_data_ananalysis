@@ -51,7 +51,7 @@ INNER JOIN
 ORDER BY
      salary_year_avg DESC
 ```
-![top_paying_jobs](assets\top_paying_jobs.png)
+![top_paying_jobs](assets/top_paying_jobs.png)
 
 A look at the highest-paying remote jobs and their average annual salaries, highlighting the value of senior and specialized roles.
 
