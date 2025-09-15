@@ -76,7 +76,7 @@ LIMIT 5
 ```
 ![Most_in_demand_skills](assets/Most_in_demand_skills.png)
 
-This chart visualizes the foundational skills that are most frequently requested in remote Data Engineer job postings.
+An analysis of which individual skills are associated with the highest average salaries, indicating where specialization pays off.
 
 3. ## Top-Paying Skills
 
@@ -98,7 +98,7 @@ LIMIT 25
 ```
 ![top_paying_skills](assets/top_paying_skills.png)
 
-Bar chart with black background shows Kubernetes, Scala, Go, Databricks, and Snowflake; Scala leads at 155,000 dollars.
+This scatter plot identifies the sweet spot where skills are both highly in-demand and command a high average salary. The size of the circle represents the salary.
 
 
 4. ## Optimal Skills
