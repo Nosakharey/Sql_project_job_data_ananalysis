@@ -144,8 +144,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![optimal_skills](Assests\optimal_skills.png)
-
+![optimal_skills](assets\optimal_skills.png)
 # What I Learned 
 Being a part of this project has been a truly valuable learning experience. Throughout the course of this analysis, I developed strong skills in writing SQL queries, critical thinking, and creative problem-solving. These were applied while using the PostgreSQL database to extract meaningful insights from raw data, building the project within VS Code, and leveraging Git and GitHub for version control and project collaboration. This journey not only enhanced my technical abilities but also provided a deeper understanding of the practical applications of data analysis in a professional context.
 
