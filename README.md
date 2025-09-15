@@ -51,7 +51,7 @@ INNER JOIN
 ORDER BY
      salary_year_avg DESC
 ```
-![Top paying jobs](Assests\top_paying_jobs.png)
+![top_paying_jobs](assets\top_paying_jobs.png)
 
 A look at the highest-paying remote jobs and their average annual salaries, highlighting the value of senior and specialized roles.
 
@@ -74,7 +74,7 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-![Most_in_demand_skills](Assests\Most_in_demand_skills.png)
+![Most_in_demand_skills](assets\Most_in_demand_skills.png)
 This chart visualizes the foundational skills that are most frequently requested in remote Data Engineer job postings.
 
 3. ## Top-Paying Skills
@@ -95,7 +95,8 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![top_paying_skills](Assests\top_paying_skills.png)
+![top_paying_skills](assets\top_paying_skills.png)
+
 Bar chart with black background shows Kubernetes, Scala, Go, Databricks, and Snowflake; Scala leads at 155,000 dollars.
 
 
