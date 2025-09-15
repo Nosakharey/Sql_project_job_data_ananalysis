@@ -74,7 +74,8 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-![Most_in_demand_skills](assets\Most_in_demand_skills.png)
+![Most_in_demand_skills](assets/Most_in_demand_skills.png)
+
 This chart visualizes the foundational skills that are most frequently requested in remote Data Engineer job postings.
 
 3. ## Top-Paying Skills
@@ -95,7 +96,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![top_paying_skills](assets\top_paying_skills.png)
+![top_paying_skills](assets/top_paying_skills.png)
 
 Bar chart with black background shows Kubernetes, Scala, Go, Databricks, and Snowflake; Scala leads at 155,000 dollars.
 
@@ -145,7 +146,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![optimal_skills](assets\optimal_skills.png)
+![optimal_skills](assets/optimal_skills.png)
 # What I Learned 
 Being a part of this project has been a truly valuable learning experience. Throughout the course of this analysis, I developed strong skills in writing SQL queries, critical thinking, and creative problem-solving. These were applied while using the PostgreSQL database to extract meaningful insights from raw data, building the project within VS Code, and leveraging Git and GitHub for version control and project collaboration. This journey not only enhanced my technical abilities but also provided a deeper understanding of the practical applications of data analysis in a professional context.
 
